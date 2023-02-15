@@ -8,8 +8,16 @@
 //22 3 9 -> 22
 
 
-int a = 3;
-int b = 40;
-int c = 80;
+int a = 44;
+int b = 100;
+int c = 78;
 int max = a;
 if(b > max)
+{
+    max = b;
+}
+if(c > max)
+{
+    max = c;
+}
+Console.WriteLine(max);
